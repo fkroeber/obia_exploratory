@@ -1,0 +1,7 @@
+# exclude folders
+# ecognition workspace
+ecognition_workspace/dpr
+
+# private notes
+*notes.md
+*.pptx
