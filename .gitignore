@@ -2,6 +2,6 @@
 # ecognition workspace
 ecognition_workspace/dpr
 
-# private notes
-*notes.md
+# private & experimental notes
+experimental/
 *.pptx

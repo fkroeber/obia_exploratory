@@ -1,5 +1,7 @@
 ## Feature EDA - Knowledge Discovery in OBIA
 
+The project is currently in the development phase. If you encounter any bugs, please open an issue or pull request...
+
 ## I. Background & Idea
 
 Object-based image analysis (OBIA) concerns the creation and analysis of image-objects as groups of contiguous pixels representing real-world geographic objects. These image-objects can be evaluated in terms of their spectral, textural, geometrical, and contextual features enabling to classify the objects in a manner that mimics the human vision. The analysis of object features can be realised in different settings ranging from knowledge-based rulesets to sample-based supervised machine learning approaches. In both cases, a meaningful feature formation is a pivotal prerequisite for the performance of the model. In the branch of supervised learning algorithms, feature selection may not be necessary as there are some standard models (such as Random Forests (RF)) well-known for their robustness and capability to handle large amounts of redundant features. Also, taking the example of RF, automated evaluation of feature importances is included, which can be used for a feature selection, if necessary. However, the are reasons for sticking with a knowledge-based ruleset approach instead of a data-driven evaluation of object features. The most simple one may be the lack of reference data rendering the application of supervised algorithms infeasible. Increased transparency in the sense of an explicit formulation of decision rules may be another reason for sticking with ruleset-based approaches. For knowledge-based modelling - in contrast to machine learning based approaches - the engineering & selection of meaningful features is really crucial as they are directly used to formulate the decision rules. 
@@ -32,9 +34,9 @@ For in-depth explanations on UMAP and comparisons to PCA, taking a closer look a
 
 Most parts of the data preparation & data visualisation are done directly using ecgonition functionality. For the main part (UMAP dimensionality reduction) the created objects with their feature values are exported. Features are evaluated using the umap python library and the results are written back to the ecognition project. Altogether, this pipeline should run smoothly from within ecognition once the necessary python environment is in place (-> see `requirements.txt`).       
 
-From the users point of view, the tool offers two ways of exploring feature sets - one based on user-defined feature sets & one based on pre-defined feature sets. The possibility mentioned first refers to the user choosing his/her own features of interest that should compose the high-dimensional feature space of interest. Contrary, the pre-defined featuresets are provided in case there is no idea on which features may be useful at all (and also to allow a demonstration of the tool with minimal user input being required). A total of 4 feature sets is implemented - "f_all", "f_spectral", "f_spatial", "f_contextual". For the details on which specific features were grouped together forming these sets, please take a look at the file `feature_sets.csv` (ecognition_workspace -> results -> FeatureEDA).   
+From the users point of view, the tool offers two ways of exploring feature sets - one based on user-defined feature sets & one based on pre-defined feature sets. The possibility mentioned first refers to the user choosing his/her own features of interest that should compose the high-dimensional feature space of interest. Contrary, the pre-defined featuresets are provided in case there is no idea on which features may be useful at all (and also to allow a demonstration of the tool with minimal user input being required). A total of 4 feature sets is implemented - "f_all", "f_spectral", "f_spatial", "f_contextual".   
 
-### D. Output visualisation
+### D. Ecognition visualisation
 
 The following two figures visualise the output of the current tool applied to the provided sample data. In both cases a multi-resolution segmentation (scale: 40, shape: 0.2, compactness: 0.7) was used to create objects. The visualised feature sets are the pre-implemented ones.   
 
@@ -46,13 +48,20 @@ The second example of a degraded bog is closer to the described scenario of comp
 
 <img src="docs/composite_example_II.png" width="100%">  
 
+### E. Interactive dashboard
+
+To further investigate the meaning and relevance of the embedded feature representation an interactive dashboard launched when executing the ecognition ruleset. This streamlit-based web app allows to explore the feature space and its connection to the original user-selected features.          
+
+<img src="docs/dashboard_I.png" width="100%">
+
+<img src="docs/dashboard_II.png" width="100%"> 
+
 ## III. Future developments & possibile extensions
 
 The current prototype could be enriched towards a comprehensive toolbox for exploratory data analysis in OBIA. 
 * Existing tools for selecting a suitable scale parameter (ESP) could be integrated such that the current tool evolves to something
 that enables a fully automated initial object-based image analysis.
 * The pre-implemented feature sets could be refined based on expert knowledge on which features can be regarded as useful "standard features" that compose generally well-working feature sets.
-* The spatial visualisation of embeddings could be supported by corresponding plots that show how embeddings relate to the underlying feature values (i.e. plots that show the values for all features for a specific embedding value). This facilitates the interpretation of colours used for the spatial visualisation. 
 * Based on the given embeddings, a cluster procedure could be implemented subsequently to automatically suggest some preliminary classification. The process may be guided by the user by providing input/knowledge on the desired number of classes for example. Subsequently, the feature analysis process could be repeated on a coarser, second hierarchical level - this time including also relations to sub-objects as features under consideration. Note: If the embeddings should really be used as direct input for an automated classification apporach remains to be reflected considering the specific properties of the UMAP algorithm (focus on local similarities, embedding stability, etc).
 
 The following optimisations refer to more technical, code-related aspects:
