@@ -241,7 +241,7 @@ def main(workspace):
             scatter = create_scatterplot()
             st.plotly_chart(scatter, use_container_width=True)
     with con2:
-        st.header("Underyling original features")
+        st.header("Underlying original features")
         st.caption(
             """
             This visualisation shows the connection between embedded & original values.

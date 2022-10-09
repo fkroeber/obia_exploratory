@@ -50,7 +50,7 @@ The second example of a degraded bog is closer to the described scenario of comp
 
 ### E. Interactive dashboard
 
-To further investigate the meaning and relevance of the embedded feature representation an interactive dashboard launched when executing the ecognition ruleset. This streamlit-based web app allows to explore the feature space and its connection to the original user-selected features.          
+To further investigate the meaning and relevance of the embedded feature representation an interactive dashboard is launched when executing the ecognition ruleset. This streamlit-based web app allows to explore the feature space and its connection to the original user-selected features.          
 
 <img src="docs/dashboard_I.png" width="100%">
 
