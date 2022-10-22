@@ -30,10 +30,10 @@ entrypoints==0.4
 executing==1.1.0
 fastjsonschema==2.16.2
 filelock==3.8.0
-Fiona==1.8.21
+Fiona @ https://download.lfd.uci.edu/pythonlibs/archived/Fiona-1.8.21-cp39-cp39-win_amd64.whl
 folium==0.12.1.post1
 fonttools==4.37.3
-GDAL==3.4.3
+GDAL @ https://download.lfd.uci.edu/pythonlibs/archived/GDAL-3.4.3-cp39-cp39-win_amd64.whl
 gdown==4.5.1
 geojson==2.5.0
 geopandas==0.11.1
@@ -56,13 +56,13 @@ Jinja2==3.1.2
 joblib==1.2.0
 json5==0.9.10
 jsonschema==4.16.0
-jupyter_client==7.3.5
 jupyter-core==4.11.1
 jupyter-server==1.18.1
+jupyter_client==7.3.5
 jupyterlab==3.4.7
 jupyterlab-pygments==0.2.2
-jupyterlab_server==2.15.1
 jupyterlab-widgets==1.1.1
+jupyterlab_server==2.15.1
 kiwisolver==1.4.4
 leafmap==0.10.5
 llvmlite==0.39.1
@@ -89,7 +89,6 @@ pandocfilters==1.5.0
 parso==0.8.3
 pickleshare==0.7.5
 Pillow==9.2.0
-pip==22.0.4
 plotly==5.10.0
 prometheus-client==0.14.1
 prompt-toolkit==3.0.31
@@ -104,7 +103,7 @@ Pygments==2.13.0
 Pympler==1.0.1
 pynndescent==0.5.7
 pyparsing==3.0.9
-pyproj==3.3.1
+pyproj @ https://download.lfd.uci.edu/pythonlibs/archived/pyproj-3.3.1-cp39-cp39-win_amd64.whl
 pyrsistent==0.18.1
 pyshp==2.3.1
 PySocks==1.7.1
@@ -120,14 +119,13 @@ pywinpty==2.0.8
 pyzmq==24.0.1
 requests==2.28.1
 rich==12.5.1
-Rtree==1.0.0
+Rtree @ https://download.lfd.uci.edu/pythonlibs/archived/Rtree-1.0.0-cp39-cp39-win_amd64.whl
 scikit-image==0.19.3
 scikit-learn==1.1.2
 scipy==1.9.1
 scooby==0.6.0
 semver==2.13.0
 Send2Trash==1.8.0
-setuptools==58.1.0
 Shapely==1.8.2
 six==1.16.0
 smmap==5.0.0

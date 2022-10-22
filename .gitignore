@@ -2,6 +2,9 @@
 # ecognition workspace
 ecognition_workspace/dpr
 
-# private & experimental notes
+# vs code config
+.vscode/ 
+
+# notes
 experimental/
 *.pptx
