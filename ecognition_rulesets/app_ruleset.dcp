@@ -2064,6 +2064,11 @@
 					<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
 				</MapLvlProxy>
 				<MapLvlProxy strName="obj_level" bVrbl="0">
+					<Assignment MapLvl="1" MapName="f_all"></Assignment>
+					<Assignment MapLvl="1" MapName="f_context"></Assignment>
+					<Assignment MapLvl="1" MapName="f_spatial"></Assignment>
+					<Assignment MapLvl="1" MapName="f_spectral"></Assignment>
+					<Assignment MapLvl="1" MapName="main"></Assignment>
 					<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
 				</MapLvlProxy>
 				<MapLvlProxy strName="potential_boundaries" bVrbl="0">
@@ -2388,7 +2393,7 @@
 							<DValue value="" type="string" name="strInstGUID"></DValue>
 						</Params>
 					</PropDscr>
-					<PropDscr Flag="0" strUserName="felix" tChngTime="1663802225" group_id="GLCM Entropy.haralik.texture.object.prop">
+					<PropDscr Flag="64" strUserName="felix" tChngTime="1663802225" group_id="GLCM Entropy.haralik.texture.object.prop">
 						<PropDscrId GUID="A97CE8DB-2AD9-4732-BB9A-632A440A1D07" InstID="GLCM Entropy Layer 1 (all dir.)"></PropDscrId>
 						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
 						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
@@ -2396,7 +2401,7 @@
 							<DValue type="img_chnl" value="Layer 1" scope="" name="valChnl"></DValue>
 						</Params>
 					</PropDscr>
-					<PropDscr Flag="0" strUserName="felix" tChngTime="1663802235" group_id="GLCM Entropy.haralik.texture.object.prop">
+					<PropDscr Flag="64" strUserName="felix" tChngTime="1663802235" group_id="GLCM Entropy.haralik.texture.object.prop">
 						<PropDscrId GUID="A97CE8DB-2AD9-4732-BB9A-632A440A1D07" InstID="GLCM Entropy Layer 2 (all dir.)"></PropDscrId>
 						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
 						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
@@ -2404,7 +2409,7 @@
 							<DValue type="img_chnl" value="Layer 2" scope="" name="valChnl"></DValue>
 						</Params>
 					</PropDscr>
-					<PropDscr Flag="0" strUserName="felix" tChngTime="1663802244" group_id="GLCM Entropy.haralik.texture.object.prop">
+					<PropDscr Flag="64" strUserName="felix" tChngTime="1663802244" group_id="GLCM Entropy.haralik.texture.object.prop">
 						<PropDscrId GUID="A97CE8DB-2AD9-4732-BB9A-632A440A1D07" InstID="GLCM Entropy Layer 3 (all dir.)"></PropDscrId>
 						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
 						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
@@ -2412,7 +2417,7 @@
 							<DValue type="img_chnl" value="Layer 3" scope="" name="valChnl"></DValue>
 						</Params>
 					</PropDscr>
-					<PropDscr Flag="0" strUserName="felix" tChngTime="1663802256" group_id="GLCM Entropy.haralik.texture.object.prop">
+					<PropDscr Flag="64" strUserName="felix" tChngTime="1663802256" group_id="GLCM Entropy.haralik.texture.object.prop">
 						<PropDscrId GUID="A97CE8DB-2AD9-4732-BB9A-632A440A1D07" InstID="GLCM Entropy Layer 4 (all dir.)"></PropDscrId>
 						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
 						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
@@ -2426,7 +2431,7 @@
 						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
 						<Params></Params>
 					</PropDscr>
-					<PropDscr Flag="0" strUserName="felix" tChngTime="1655492405" group_id="nghb.objrel.object.prop">
+					<PropDscr Flag="64" strUserName="felix" tChngTime="1655492405" group_id="nghb.objrel.object.prop">
 						<PropDscrId GUID="6767134D-8680-4211-94B1-9F877FB25011" InstID="Number of neighbors"></PropDscrId>
 						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
 						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
@@ -2476,13 +2481,13 @@
 							<DValue value="" type="string" name="strInstGUID"></DValue>
 						</Params>
 					</PropDscr>
-					<PropDscr Flag="0" strUserName="felix" tChngTime="1663705847" group_id="shape.geom.object.prop">
+					<PropDscr Flag="64" strUserName="felix" tChngTime="1663705847" group_id="shape.geom.object.prop">
 						<PropDscrId GUID="4FEA3E27-A4F2-4a22-BB1D-2BA4568C5C51" InstID="Main direction"></PropDscrId>
 						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
 						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
 						<Params></Params>
 					</PropDscr>
-					<PropDscr Flag="0" strUserName="felix" tChngTime="1663802044" group_id="stdev.chnl.object.prop">
+					<PropDscr Flag="64" strUserName="felix" tChngTime="1663802044" group_id="stdev.chnl.object.prop">
 						<PropDscrId GUID="4B11667E-1449-440f-8D7B-0A4D90E62B3E" InstID="Standard deviation Layer 1"></PropDscrId>
 						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
 						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
@@ -2490,7 +2495,7 @@
 							<DValue type="img_chnl" value="Layer 1" scope="" name="valChnl"></DValue>
 						</Params>
 					</PropDscr>
-					<PropDscr Flag="0" strUserName="felix" tChngTime="1663802047" group_id="stdev.chnl.object.prop">
+					<PropDscr Flag="64" strUserName="felix" tChngTime="1663802047" group_id="stdev.chnl.object.prop">
 						<PropDscrId GUID="4B11667E-1449-440f-8D7B-0A4D90E62B3E" InstID="Standard deviation Layer 2"></PropDscrId>
 						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
 						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
@@ -2498,7 +2503,7 @@
 							<DValue type="img_chnl" value="Layer 2" scope="" name="valChnl"></DValue>
 						</Params>
 					</PropDscr>
-					<PropDscr Flag="0" strUserName="felix" tChngTime="1663802049" group_id="stdev.chnl.object.prop">
+					<PropDscr Flag="64" strUserName="felix" tChngTime="1663802049" group_id="stdev.chnl.object.prop">
 						<PropDscrId GUID="4B11667E-1449-440f-8D7B-0A4D90E62B3E" InstID="Standard deviation Layer 3"></PropDscrId>
 						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
 						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
@@ -2506,7 +2511,7 @@
 							<DValue type="img_chnl" value="Layer 3" scope="" name="valChnl"></DValue>
 						</Params>
 					</PropDscr>
-					<PropDscr Flag="0" strUserName="felix" tChngTime="1663802051" group_id="stdev.chnl.object.prop">
+					<PropDscr Flag="64" strUserName="felix" tChngTime="1663802051" group_id="stdev.chnl.object.prop">
 						<PropDscrId GUID="4B11667E-1449-440f-8D7B-0A4D90E62B3E" InstID="Standard deviation Layer 4"></PropDscrId>
 						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
 						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
@@ -2514,7 +2519,7 @@
 							<DValue type="img_chnl" value="Layer 4" scope="" name="valChnl"></DValue>
 						</Params>
 					</PropDscr>
-					<PropDscr Flag="0" strUserName="felix" tChngTime="1663794058" group_id="mean.chnl.object.prop">
+					<PropDscr Flag="64" strUserName="felix" tChngTime="1663794058" group_id="mean.chnl.object.prop">
 						<PropDscrId GUID="44411C83-609B-4758-93D3-FF62DF246855" InstID="Mean Layer 1"></PropDscrId>
 						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
 						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
@@ -2522,7 +2527,7 @@
 							<DValue type="img_chnl" value="Layer 1" scope="" name="valChnl"></DValue>
 						</Params>
 					</PropDscr>
-					<PropDscr Flag="0" strUserName="felix" tChngTime="1663794058" group_id="mean.chnl.object.prop">
+					<PropDscr Flag="64" strUserName="felix" tChngTime="1663794058" group_id="mean.chnl.object.prop">
 						<PropDscrId GUID="44411C83-609B-4758-93D3-FF62DF246855" InstID="Mean Layer 2"></PropDscrId>
 						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
 						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
@@ -2530,7 +2535,7 @@
 							<DValue type="img_chnl" value="Layer 2" scope="" name="valChnl"></DValue>
 						</Params>
 					</PropDscr>
-					<PropDscr Flag="0" strUserName="felix" tChngTime="1663794058" group_id="mean.chnl.object.prop">
+					<PropDscr Flag="64" strUserName="felix" tChngTime="1663794058" group_id="mean.chnl.object.prop">
 						<PropDscrId GUID="44411C83-609B-4758-93D3-FF62DF246855" InstID="Mean Layer 3"></PropDscrId>
 						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
 						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
@@ -2538,7 +2543,7 @@
 							<DValue type="img_chnl" value="Layer 3" scope="" name="valChnl"></DValue>
 						</Params>
 					</PropDscr>
-					<PropDscr Flag="0" strUserName="felix" tChngTime="1663794058" group_id="mean.chnl.object.prop">
+					<PropDscr Flag="64" strUserName="felix" tChngTime="1663794058" group_id="mean.chnl.object.prop">
 						<PropDscrId GUID="44411C83-609B-4758-93D3-FF62DF246855" InstID="Mean Layer 4"></PropDscrId>
 						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
 						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
@@ -2572,7 +2577,7 @@
 							</DValue>
 						</Params>
 					</PropDscr>
-					<PropDscr Flag="0" strUserName="felix" tChngTime="1653659606" group_id="shape.geom.object.prop">
+					<PropDscr Flag="64" strUserName="felix" tChngTime="1653659606" group_id="shape.geom.object.prop">
 						<PropDscrId GUID="40CC7324-96B4-409c-B786-B184C1259197" InstID="Shape index"></PropDscrId>
 						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
 						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
@@ -2615,7 +2620,7 @@
 							<DValue value="0" type="bool" name="bIntrnName"></DValue>
 						</Params>
 					</PropDscr>
-					<PropDscr Flag="0" strUserName="felix" tChngTime="1663802385" group_id="mdifnei.nghb.objrel.object.prop">
+					<PropDscr Flag="64" strUserName="felix" tChngTime="1663802385" group_id="mdifnei.nghb.objrel.object.prop">
 						<PropDscrId GUID="296513A7-734F-4219-A9E0-7F27773C28F3" InstID="Mean diff. to neighbors Layer 1 (0)"></PropDscrId>
 						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
 						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
@@ -2624,7 +2629,7 @@
 							<DValue value="0" type="int" name="iDist"></DValue>
 						</Params>
 					</PropDscr>
-					<PropDscr Flag="0" strUserName="felix" tChngTime="1663802417" group_id="mdifnei.nghb.objrel.object.prop">
+					<PropDscr Flag="64" strUserName="felix" tChngTime="1663802417" group_id="mdifnei.nghb.objrel.object.prop">
 						<PropDscrId GUID="296513A7-734F-4219-A9E0-7F27773C28F3" InstID="Mean diff. to neighbors Layer 2 (0)"></PropDscrId>
 						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
 						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
@@ -2633,7 +2638,7 @@
 							<DValue value="0" type="int" name="iDist"></DValue>
 						</Params>
 					</PropDscr>
-					<PropDscr Flag="0" strUserName="felix" tChngTime="1663802431" group_id="mdifnei.nghb.objrel.object.prop">
+					<PropDscr Flag="64" strUserName="felix" tChngTime="1663802431" group_id="mdifnei.nghb.objrel.object.prop">
 						<PropDscrId GUID="296513A7-734F-4219-A9E0-7F27773C28F3" InstID="Mean diff. to neighbors Layer 3 (0)"></PropDscrId>
 						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
 						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
@@ -2642,7 +2647,7 @@
 							<DValue value="0" type="int" name="iDist"></DValue>
 						</Params>
 					</PropDscr>
-					<PropDscr Flag="0" strUserName="felix" tChngTime="1663802440" group_id="mdifnei.nghb.objrel.object.prop">
+					<PropDscr Flag="64" strUserName="felix" tChngTime="1663802440" group_id="mdifnei.nghb.objrel.object.prop">
 						<PropDscrId GUID="296513A7-734F-4219-A9E0-7F27773C28F3" InstID="Mean diff. to neighbors Layer 4 (0)"></PropDscrId>
 						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
 						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
@@ -2651,13 +2656,13 @@
 							<DValue value="0" type="int" name="iDist"></DValue>
 						</Params>
 					</PropDscr>
-					<PropDscr Flag="0" strUserName="felix" tChngTime="1663579676" group_id="shape.geom.object.prop">
+					<PropDscr Flag="64" strUserName="felix" tChngTime="1663579676" group_id="shape.geom.object.prop">
 						<PropDscrId GUID="1F03F8EB-A21A-4d53-B9DA-391FFE1B804D" InstID="Compactness"></PropDscrId>
 						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
 						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
 						<Params></Params>
 					</PropDscr>
-					<PropDscr Flag="0" strUserName="felix" tChngTime="1663802491" group_id="mdifneiabs.nghb.objrel.object.prop">
+					<PropDscr Flag="64" strUserName="felix" tChngTime="1663802491" group_id="mdifneiabs.nghb.objrel.object.prop">
 						<PropDscrId GUID="0592826C-B866-451c-9812-6E253A7DAA56" InstID="Mean diff. to neighbors (abs) Layer 1 (0)"></PropDscrId>
 						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
 						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
@@ -2666,7 +2671,7 @@
 							<DValue value="0" type="int" name="iDist"></DValue>
 						</Params>
 					</PropDscr>
-					<PropDscr Flag="0" strUserName="felix" tChngTime="1663802499" group_id="mdifneiabs.nghb.objrel.object.prop">
+					<PropDscr Flag="64" strUserName="felix" tChngTime="1663802499" group_id="mdifneiabs.nghb.objrel.object.prop">
 						<PropDscrId GUID="0592826C-B866-451c-9812-6E253A7DAA56" InstID="Mean diff. to neighbors (abs) Layer 2 (0)"></PropDscrId>
 						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
 						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
@@ -2675,7 +2680,7 @@
 							<DValue value="0" type="int" name="iDist"></DValue>
 						</Params>
 					</PropDscr>
-					<PropDscr Flag="0" strUserName="felix" tChngTime="1663802509" group_id="mdifneiabs.nghb.objrel.object.prop">
+					<PropDscr Flag="64" strUserName="felix" tChngTime="1663802509" group_id="mdifneiabs.nghb.objrel.object.prop">
 						<PropDscrId GUID="0592826C-B866-451c-9812-6E253A7DAA56" InstID="Mean diff. to neighbors (abs) Layer 3 (0)"></PropDscrId>
 						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
 						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
@@ -2684,7 +2689,7 @@
 							<DValue value="0" type="int" name="iDist"></DValue>
 						</Params>
 					</PropDscr>
-					<PropDscr Flag="0" strUserName="felix" tChngTime="1663802517" group_id="mdifneiabs.nghb.objrel.object.prop">
+					<PropDscr Flag="64" strUserName="felix" tChngTime="1663802517" group_id="mdifneiabs.nghb.objrel.object.prop">
 						<PropDscrId GUID="0592826C-B866-451c-9812-6E253A7DAA56" InstID="Mean diff. to neighbors (abs) Layer 4 (0)"></PropDscrId>
 						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
 						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
@@ -2693,7 +2698,7 @@
 							<DValue value="0" type="int" name="iDist"></DValue>
 						</Params>
 					</PropDscr>
-					<PropDscr Flag="65536" strUserName="s1085505" tChngTime="1651763747" group_id="ext.geom.object.prop">
+					<PropDscr Flag="65600" strUserName="s1085505" tChngTime="1651763747" group_id="ext.geom.object.prop">
 						<PropDscrId GUID="03E04ED0-94DD-45ee-801E-14D70E6E2417" InstID="Area"></PropDscrId>
 						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
 						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
@@ -2710,6 +2715,50 @@
 						<BrghtWght val="1." chnl="1"></BrghtWght>
 						<BrghtWght val="1." chnl="2"></BrghtWght>
 						<BrghtWght val="1." chnl="3"></BrghtWght>
+					</ChnlWghtBrght>
+				</Map>
+				<Map MapName="f_all">
+					<ChnlWghtBrght>
+						<BrghtWght val="1." chnl="0"></BrghtWght>
+						<BrghtWght val="1." chnl="1"></BrghtWght>
+						<BrghtWght val="1." chnl="2"></BrghtWght>
+						<BrghtWght val="1." chnl="3"></BrghtWght>
+						<BrghtWght val="0." chnl="4"></BrghtWght>
+						<BrghtWght val="0." chnl="5"></BrghtWght>
+						<BrghtWght val="0." chnl="6"></BrghtWght>
+					</ChnlWghtBrght>
+				</Map>
+				<Map MapName="f_spectral">
+					<ChnlWghtBrght>
+						<BrghtWght val="1." chnl="0"></BrghtWght>
+						<BrghtWght val="1." chnl="1"></BrghtWght>
+						<BrghtWght val="1." chnl="2"></BrghtWght>
+						<BrghtWght val="1." chnl="3"></BrghtWght>
+						<BrghtWght val="0." chnl="4"></BrghtWght>
+						<BrghtWght val="0." chnl="5"></BrghtWght>
+						<BrghtWght val="0." chnl="6"></BrghtWght>
+					</ChnlWghtBrght>
+				</Map>
+				<Map MapName="f_spatial">
+					<ChnlWghtBrght>
+						<BrghtWght val="1." chnl="0"></BrghtWght>
+						<BrghtWght val="1." chnl="1"></BrghtWght>
+						<BrghtWght val="1." chnl="2"></BrghtWght>
+						<BrghtWght val="1." chnl="3"></BrghtWght>
+						<BrghtWght val="0." chnl="4"></BrghtWght>
+						<BrghtWght val="0." chnl="5"></BrghtWght>
+						<BrghtWght val="0." chnl="6"></BrghtWght>
+					</ChnlWghtBrght>
+				</Map>
+				<Map MapName="f_context">
+					<ChnlWghtBrght>
+						<BrghtWght val="1." chnl="0"></BrghtWght>
+						<BrghtWght val="1." chnl="1"></BrghtWght>
+						<BrghtWght val="1." chnl="2"></BrghtWght>
+						<BrghtWght val="1." chnl="3"></BrghtWght>
+						<BrghtWght val="0." chnl="4"></BrghtWght>
+						<BrghtWght val="0." chnl="5"></BrghtWght>
+						<BrghtWght val="0." chnl="6"></BrghtWght>
 					</ChnlWghtBrght>
 				</Map>
 			</Brightness>
@@ -3163,8 +3212,8 @@
 			<plugin name="eCognition Internal Process Algorithms" version="0.1"></plugin>
 			<plugin name="eCognition Internal Export Process Algorithms" version="0.1"></plugin>
 			<plugin name="eCognition Interactive Process Algorithms" version="0.1"></plugin>
-			<plugin name="eCognition Python Plugin" version="0.1"></plugin>
 			<plugin name="eCognition Basic Process Algorithms" version="0.1"></plugin>
+			<plugin name="eCognition Python Plugin" version="0.1"></plugin>
 		</plugin-list>
 	</ObjectDependencies>
 	<CustProcAlgrList>
@@ -3523,6 +3572,11 @@
 							<DValue value="1" type="bool" name="bDoOverwrite"></DValue>
 							<DValue type="lvlName" name="valMapLvl">
 								<MapLvlProxy strName="obj_level" bVrbl="0">
+									<Assignment MapLvl="1" MapName="f_all"></Assignment>
+									<Assignment MapLvl="1" MapName="f_context"></Assignment>
+									<Assignment MapLvl="1" MapName="f_spatial"></Assignment>
+									<Assignment MapLvl="1" MapName="f_spectral"></Assignment>
+									<Assignment MapLvl="1" MapName="main"></Assignment>
 									<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
 								</MapLvlProxy>
 							</DValue>
@@ -11994,6 +12048,11 @@
 									<Params>
 									<DValue type="lvlName" name="valMapLvl">
 									<MapLvlProxy strName="obj_level" bVrbl="0">
+									<Assignment MapLvl="1" MapName="f_all"></Assignment>
+									<Assignment MapLvl="1" MapName="f_context"></Assignment>
+									<Assignment MapLvl="1" MapName="f_spatial"></Assignment>
+									<Assignment MapLvl="1" MapName="f_spectral"></Assignment>
+									<Assignment MapLvl="1" MapName="main"></Assignment>
 									<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
 									</MapLvlProxy>
 									</DValue>
@@ -12044,6 +12103,11 @@
 									<Params>
 									<DValue type="lvlName" name="valMapLvl">
 									<MapLvlProxy strName="obj_level" bVrbl="0">
+									<Assignment MapLvl="1" MapName="f_all"></Assignment>
+									<Assignment MapLvl="1" MapName="f_context"></Assignment>
+									<Assignment MapLvl="1" MapName="f_spatial"></Assignment>
+									<Assignment MapLvl="1" MapName="f_spectral"></Assignment>
+									<Assignment MapLvl="1" MapName="main"></Assignment>
 									<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
 									</MapLvlProxy>
 									</DValue>
@@ -12177,7 +12241,7 @@
 						<Params>
 							<DValue value="0" type="bool" name="m_usePythonFile"></DValue>
 							<DValue value="{:Workspc.OutputRoot}\script.py" type="string" name="m_pythonScriptPath"></DValue>
-							<DValue value="import ecognition as ecog&#xA;import geopandas as gpd&#xA;import os&#xA;import numpy as np&#xA;import pandas as pd&#xA;import umap&#xA;&#xA;def obj_dim_reduce(input_dict):&#xA;    # defining paths&#xA;    workspace_path = input_dict[&quot;variable&quot;][&quot;workspace_path&quot;]&#xA;    workspace_root = os.path.split(workspace_path)[0]&#xA;    work_dir = os.path.join(workspace_root, &quot;results&quot;, &quot;FeatureEDA&quot;)&#xA;&#xA;    # read &amp; prepare object feature data&#xA;    df = pd.read_csv(os.path.join(work_dir, &quot;feature_vals.csv&quot;))&#xA;    df_prep = (df-df.mean())/df.std()&#xA;&#xA;    f_sets = pd.read_csv(os.path.join(work_dir, &quot;feature_sets.csv&quot;))&#xA;    fsets_names = []&#xA;    for fset in f_sets:&#xA;        fset_name = f_sets.loc[:,fset].name&#xA;        feats_of_interest = f_sets.loc[:,fset].dropna().to_list()&#xA;        df_feats = df_prep[feats_of_interest]&#xA;&#xA;        # perform dimensionality reduction&#xA;        reducer = umap.UMAP(n_components=3)&#xA;        embedding = reducer.fit_transform(df_feats)&#xA;        embed_df = pd.DataFrame(embedding)&#xA;        embed_df.rename(columns={0: &quot;embed_I&quot;, 1: &quot;embed_II&quot;, 2: &quot;embed_III&quot;}, inplace=True)&#xA;&#xA;        # read object geometry &amp; add feature embeddings as attributes &#xA;        obj_geom = gpd.read_file(os.path.join(work_dir, &quot;object_geom.shp&quot;))&#xA;        obj_embed = gpd.GeoDataFrame(embed_df, geometry=obj_geom[&quot;geometry&quot;])&#xA;&#xA;        # write to file&#xA;        obj_embed.to_file(os.path.join(work_dir, f&quot;embeddings_{fset_name}.shp&quot;))&#xA;        ecog.Vector.create_vector(f&quot;embeddings_{fset_name}&quot;, &quot;Polygon&quot;, obj_embed)&#xA;        fsets_names.append(fset_name)&#xA;        &#xA;    # write variable with fname sets&#xA;    ecog.set_array(&quot;fsets_names&quot;, np.array(fsets_names))" type="string" name="m_pythonScriptInline"></DValue>
+							<DValue value="import ecognition as ecog&#xA;import geopandas as gpd&#xA;import os&#xA;import numpy as np&#xA;import pandas as pd&#xA;import umap.umap_ as umap&#xA;&#xA;def obj_dim_reduce(input_dict):&#xA;    # defining paths&#xA;    workspace_path = input_dict[&quot;variable&quot;][&quot;workspace_path&quot;]&#xA;    workspace_root = os.path.split(workspace_path)[0]&#xA;    work_dir = os.path.join(workspace_root, &quot;results&quot;, &quot;FeatureEDA&quot;)&#xA;&#xA;    # read &amp; prepare object feature data&#xA;    df = pd.read_csv(os.path.join(work_dir, &quot;feature_vals.csv&quot;))&#xA;    df_prep = (df-df.mean())/df.std()&#xA;&#xA;    f_sets = pd.read_csv(os.path.join(work_dir, &quot;feature_sets.csv&quot;))&#xA;    fsets_names = []&#xA;    for fset in f_sets:&#xA;        fset_name = f_sets.loc[:,fset].name&#xA;        feats_of_interest = f_sets.loc[:,fset].dropna().to_list()&#xA;        df_feats = df_prep[feats_of_interest]&#xA;&#xA;        # perform dimensionality reduction&#xA;        reducer = umap.UMAP(n_components=3)&#xA;        embedding = reducer.fit_transform(df_feats)&#xA;        embed_df = pd.DataFrame(embedding)&#xA;        embed_df.rename(columns={0: &quot;embed_I&quot;, 1: &quot;embed_II&quot;, 2: &quot;embed_III&quot;}, inplace=True)&#xA;&#xA;        # read object geometry &amp; add feature embeddings as attributes &#xA;        obj_geom = gpd.read_file(os.path.join(work_dir, &quot;object_geom.shp&quot;))&#xA;        obj_embed = gpd.GeoDataFrame(embed_df, geometry=obj_geom[&quot;geometry&quot;])&#xA;&#xA;        # write to file&#xA;        obj_embed.to_file(os.path.join(work_dir, f&quot;embeddings_{fset_name}.shp&quot;))&#xA;        ecog.Vector.create_vector(f&quot;embeddings_{fset_name}&quot;, &quot;Polygon&quot;, obj_embed)&#xA;        fsets_names.append(fset_name)&#xA;        &#xA;    # write variable with fname sets&#xA;    ecog.set_array(&quot;fsets_names&quot;, np.array(fsets_names))" type="string" name="m_pythonScriptInline"></DValue>
 							<DValue value="obj_dim_reduce" type="string" name="m_pythonFunction"></DValue>
 							<DValue type="array" name="m_externalScriptPaths"></DValue>
 							<DValue value="0" type="bool" name="bUseSrcArray"></DValue>
@@ -13299,6 +13363,11 @@
 									<Params>
 									<DValue type="lvlName" name="valMapLvl">
 									<MapLvlProxy strName="obj_level" bVrbl="0">
+									<Assignment MapLvl="1" MapName="f_all"></Assignment>
+									<Assignment MapLvl="1" MapName="f_context"></Assignment>
+									<Assignment MapLvl="1" MapName="f_spatial"></Assignment>
+									<Assignment MapLvl="1" MapName="f_spectral"></Assignment>
+									<Assignment MapLvl="1" MapName="main"></Assignment>
 									<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
 									</MapLvlProxy>
 									</DValue>
@@ -13340,6 +13409,11 @@
 									<Params>
 									<DValue type="lvlName" name="valMapLvl">
 									<MapLvlProxy strName="obj_level" bVrbl="0">
+									<Assignment MapLvl="1" MapName="f_all"></Assignment>
+									<Assignment MapLvl="1" MapName="f_context"></Assignment>
+									<Assignment MapLvl="1" MapName="f_spatial"></Assignment>
+									<Assignment MapLvl="1" MapName="f_spectral"></Assignment>
+									<Assignment MapLvl="1" MapName="main"></Assignment>
 									<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
 									</MapLvlProxy>
 									</DValue>
@@ -13381,6 +13455,11 @@
 									<Params>
 									<DValue type="lvlName" name="valMapLvl">
 									<MapLvlProxy strName="obj_level" bVrbl="0">
+									<Assignment MapLvl="1" MapName="f_all"></Assignment>
+									<Assignment MapLvl="1" MapName="f_context"></Assignment>
+									<Assignment MapLvl="1" MapName="f_spatial"></Assignment>
+									<Assignment MapLvl="1" MapName="f_spectral"></Assignment>
+									<Assignment MapLvl="1" MapName="main"></Assignment>
 									<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
 									</MapLvlProxy>
 									</DValue>
@@ -14731,6 +14810,11 @@
 									<Params>
 									<DValue type="lvlName" name="valMapLvl">
 									<MapLvlProxy strName="obj_level" bVrbl="0">
+									<Assignment MapLvl="1" MapName="f_all"></Assignment>
+									<Assignment MapLvl="1" MapName="f_context"></Assignment>
+									<Assignment MapLvl="1" MapName="f_spatial"></Assignment>
+									<Assignment MapLvl="1" MapName="f_spectral"></Assignment>
+									<Assignment MapLvl="1" MapName="main"></Assignment>
 									<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
 									</MapLvlProxy>
 									</DValue>
@@ -14772,6 +14856,11 @@
 									<Params>
 									<DValue type="lvlName" name="valMapLvl">
 									<MapLvlProxy strName="obj_level" bVrbl="0">
+									<Assignment MapLvl="1" MapName="f_all"></Assignment>
+									<Assignment MapLvl="1" MapName="f_context"></Assignment>
+									<Assignment MapLvl="1" MapName="f_spatial"></Assignment>
+									<Assignment MapLvl="1" MapName="f_spectral"></Assignment>
+									<Assignment MapLvl="1" MapName="main"></Assignment>
 									<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
 									</MapLvlProxy>
 									</DValue>
@@ -14813,6 +14902,11 @@
 									<Params>
 									<DValue type="lvlName" name="valMapLvl">
 									<MapLvlProxy strName="obj_level" bVrbl="0">
+									<Assignment MapLvl="1" MapName="f_all"></Assignment>
+									<Assignment MapLvl="1" MapName="f_context"></Assignment>
+									<Assignment MapLvl="1" MapName="f_spatial"></Assignment>
+									<Assignment MapLvl="1" MapName="f_spectral"></Assignment>
+									<Assignment MapLvl="1" MapName="main"></Assignment>
 									<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
 									</MapLvlProxy>
 									</DValue>
@@ -15352,6 +15446,11 @@
 						<Params>
 							<DValue type="lvlName" name="valMapLvl">
 								<MapLvlProxy strName="obj_level" bVrbl="0">
+									<Assignment MapLvl="1" MapName="f_all"></Assignment>
+									<Assignment MapLvl="1" MapName="f_context"></Assignment>
+									<Assignment MapLvl="1" MapName="f_spatial"></Assignment>
+									<Assignment MapLvl="1" MapName="f_spectral"></Assignment>
+									<Assignment MapLvl="1" MapName="main"></Assignment>
 									<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
 								</MapLvlProxy>
 							</DValue>

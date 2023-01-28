@@ -3,7 +3,7 @@
 ecognition_workspace/dpr
 
 # vs code config
-.vscode/ 
+vs_workspace.code-workspace
 
 # notes
 experimental/
